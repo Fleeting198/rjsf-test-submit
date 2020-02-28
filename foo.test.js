@@ -10,9 +10,6 @@ describe("Custom submit buttons", () => {
     let submitCount = 0;
     const onSubmit = () => {
       submitCount++;
-      if (submitCount === 2) {
-        done();
-      }
     };
 
     const wrapper = mount(
