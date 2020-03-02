@@ -4,7 +4,7 @@
   "description": "",
   "main": "FormWrapper.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest foo.test.js",
     "test2": "mocha --require @babel/register --require ./setup-jsdom.js foo2.test.js"
   },
   "keywords": [],
